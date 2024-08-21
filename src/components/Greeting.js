@@ -7,9 +7,8 @@ const Greeting = () => {
         <>
        
         <form>
-            <label>Enter your name:</label>
-            <input type="text"  onChange={(e) => {
-                setVal(e.target.value)}}/>
+            <label>Enter your name:</label><br></br>
+            <input type="text"  onChange={(e) => {setVal(e.target.value)}}/>
         </form>
        
         <div>
