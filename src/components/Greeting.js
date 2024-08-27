@@ -8,7 +8,7 @@ const Greeting = () => {
        
         <form>
             <label>Enter your name:</label><br></br>
-            <input type="text"  onChange={(e) => {setVal(e.target.value)}}/>
+            <input type="text" value={val} onChange={(e) => {setVal(e.target.value)}}/>
         </form>
        
         <div>
